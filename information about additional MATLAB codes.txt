@@ -1,0 +1,5 @@
+The zipped MATLAB codes contains 3 additional codes:
+1. fillin.m : This code takes in a single line boundary image as well as the boundary's label from connected component, and fills the boundary to create a whole object.
+The boundary must be a closed boundary.
+2. connectedcomponents.m : This code performs connected component labelling as per the lecture notes algorithm.
+3. medfilter.m : This code performs median filtering as per the lecture notes algorithm. Points that are out of bounds of the image is treated as zeroes.
